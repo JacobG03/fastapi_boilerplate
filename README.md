@@ -1,9 +1,27 @@
 # FastAPI Boilerplate Code
 
-## Run Server
+## Linux Setup
+
+### Create Virtual Environment
+
+    python3 -m venv venv
+
+### Activate Virtual Environment
+
+    source venv/bin/activate
+    
+### Install dependencies
+    
+    pip install -r requirements.txt
+
+### Run Initialiser
+
+    python3 -m app.initialiser
+
+### Run Server
 
     uvicorn app.main:app --reload --host=0.0.0.0
 
-## Run Initialiser
+## Windows & Mac Setup
 
-    python3 -m app.initialiser
+Use google if any issues occur.
