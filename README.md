@@ -6,9 +6,9 @@
 
     touch .env
     
-    Write out
+**.env**:
+
     DATABASE_URL="<Database URL or leave empty string>"
-    and save file.
 
 ### Create Virtual Environment
 
