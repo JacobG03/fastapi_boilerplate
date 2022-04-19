@@ -2,6 +2,14 @@
 
 ## Linux Setup
 
+### Create .env file
+
+    touch .env
+    
+    Write out
+    DATABASE_URL="<Database URL or leave empty string>"
+    and save file.
+
 ### Create Virtual Environment
 
     python3 -m venv venv
